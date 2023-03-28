@@ -94,12 +94,19 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	color: #800000;
 }
+
 article h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
 
+article img {
+	float: right;
+	margin: 0 0 1em 1em;
+	border: 1px solid black;
+}
 /* the styles for the section */
 section {
 	float: right;
@@ -128,9 +135,8 @@ aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
 }
-aside img {
-	padding-bottom: 1em;
-}
+
+
 
 /* the styles for the footer */
 footer {
